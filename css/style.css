@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -57,7 +57,19 @@ nav li a {
 
 
 .jumbotron {
+    height: 400px;
     margin-top: 20px;
+    background-image: url(../img/banner.jpg);
+    background-size: auto;
+    background-position: center;
+    opacity: 0.72;
+    background-repeat: no-repeat;
+}
+
+.title-img{
+    font-size: 25px;
+    color: black;
+    max-width: 50px;
 }
 
 /* main */
@@ -89,12 +101,12 @@ nav li a {
     height: 70px;
     background-color: green;
 } */
-
+/* 
 .debug .jumbotron {
     height: 400px;
     background-color: tomato;
 }
-
+ */
 
 .debug .section-title{
     height: 70px;
